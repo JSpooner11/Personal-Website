@@ -5,6 +5,7 @@ body {
 
 
 /* Navbar Starts */
+/* Navbar Items Starts */
 nav {
     background-color: black;
     width: 100%;
@@ -14,20 +15,14 @@ nav {
     align-items: center;
     position: fixed;
   }
-  
+
 header {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    align-items: center;
 }
 
 header .navbar ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 3rem;
   }
 
@@ -46,14 +41,71 @@ header .navbar ul {
     border-bottom: 0.2rem solid #fccb06;
     padding: 0.2rem 0;
   }
-/* Navbar Starts */
+/* Navbar Items Ends */
+
+/* social icons start */
+header .socials {
+    position: fixed;
+    margin-top: 0rem;
+    padding-left: 4rem;
+    padding-top: 0;
+    align-items: center;
+  }
+
+header .socials .social-icons{
+    padding-left: 0;
+    margin-bottom: 0rem;
+    list-style: none;
+    align-items: center;
+    margin-top: 0rem;
+  }
+
+header .socials .social-icons li {
+    display: inline-block;
+    margin-bottom: 14px;
+  }
+
+header  .social-icons a {
+    font-size: 1.5rem;
+    display: inline-block;
+    line-height: 3rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    margin-right: 1.25rem;
+    color: white;
+  }
+
+.social-icons a.github:hover {
+    color: #fccb06;
+  }
+
+.social-icons a.twitter:hover {
+    color: #00aced;
+  }
+
+.social-icons a.linkedin:hover {
+    color: #007bb6;
+  }
+
+.social-icons a.instagram:hover {
+    color: #ee00da;
+  }
+
+.social-icons a.youtube:hover {
+    color: red;
+  }
+
+/* social icons Ends */
+/* Navbar Emds */
+
 
 
 /* Introduction Starts */
 .intro {
-    font-family: 'Times New Roman', serif;
-    padding-left: 150px;
-    padding-top: 50px;
+    font-family: "Nunito", sans-serif;
+    padding-left: 8rem;
+    padding-top: 10rem;
 }
 
 .intro h2 {
@@ -66,48 +118,17 @@ header .navbar ul {
     color: #ff7b00;
 }
 
-.intro p {
-    margin-top: 0.5rem;
+.intro h3 {
+    margin-bottom: 0;
     font-size: 2.5rem;
+    margin-top: 0.5rem;
+    font-weight: normal;
+}
+
+.intro p {
+    margin-top: 0rem;
+    font-size: 2.5rem;
+    margin-bottom: 0;
 }
 /* Introduction Ends */
-
-
-.title {
-    background-color: whitesmoke;
-    width: 100%;
-    height: 190px;
-    margin-top: 0;
-    border-bottom: 1px solid lightgray;
-}
-
-.sub_title {
-    color: black;
-    font-weight: bold;
-    font-size: 40pt;
-    text-align: center;
-    font-variant: small-caps;
-    margin-bottom: 0;
-    padding-top: 55px;
-  }
-
-.welcome_title {
-    color: black;
-    font-size: 22pt;
-    text-align: center;
-    font-family: 'Brush Script MT', cursive;
-    font-style: italic;
-    margin-top: 0;
-}
-
-.body_background {
-    width: 100%;
-    height: 100vh;
-    background-color: white;
-}
-
-
-
-
-
 

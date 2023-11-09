@@ -24,10 +24,11 @@ header .navbar ul {
     list-style: none;
     display: flex;
     gap: 3rem;
+    
   }
 
   header .navbar ul li a {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: white;
     font-weight: 600;
     text-decoration: none;

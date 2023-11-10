@@ -143,18 +143,61 @@ header  .social-icons a {
 .home .intro h3 {
     margin-bottom: 0;
     font-size: 2.5rem;
-    margin-top: 0.5rem;
+    margin-top: 0rem;
     font-weight: normal;
     color: black;
 }
 
-/* .home .intro p {
-    font-size: 2.5rem;
+.linebreak {
+    margin-top: 0.5rem;
+    width: 100%;
+    background-color: #fccb06;
+    height: 0.25rem;
+}
+
+.home .intro p {
+    font-size: 1.5rem;
     color: black;
-} */
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
 
+.home .btn  {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    padding: 1rem 2rem;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 1.5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+  }
 
+  .home .btn:hover  {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+ 
+.home .btn i {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
 
+.home  .btn:hover i {
+    transform: translateX(6px);
+}
 
 /* Introduction Ends */
+
+/* Skills section Starts */
+
+
+/* Skills section Ends */
+ 
+ 
 

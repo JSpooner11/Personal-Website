@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 /* Navbar Starts */
 /* Navbar Items Starts */
@@ -106,7 +110,7 @@ header  .social-icons a {
 .home {
     display: flex;
     flex-wrap: wrap; 
-    gap: 3rem;
+    gap: 1rem;
     min-height: 100vh;
     align-items: center;
   }
@@ -114,7 +118,7 @@ header  .social-icons a {
 
 .home .image img {
     width: 50%;
-    margin-left: 20rem;
+    margin-left: 15rem;
     margin-top: 0;
     padding-top: 0%;
     border-radius: 50%;
@@ -127,7 +131,7 @@ header  .social-icons a {
     font-family: "Nunito", sans-serif;
     padding-left: 14rem;
     padding-top: 0rem;
-    color: #180957;
+    color: black;
 }
 
 .home .intro h2 {
@@ -156,14 +160,14 @@ header  .social-icons a {
 }
 
 .home .intro p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: black;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
 }
 
 .home .btn  {
-    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    background-image: linear-gradient(to right, #cd79f5 0%, #7734e7  51%, #cd79f5  100%);
     padding: 1rem 2rem;
     text-align: center;
     transition: 0.5s;
@@ -173,14 +177,15 @@ header  .social-icons a {
     border-radius: 1.5rem;
     width: 15rem;
     font-size: 1.5rem;
-  }
+    text-decoration: none;
+}
 
-  .home .btn:hover  {
+.home .btn:hover  {
     background-position: right center; 
     color: #fff;
     text-decoration: none;
     cursor: pointer;
-  }
+}
  
 .home .btn i {
     margin-left: 0.5rem;
@@ -188,14 +193,64 @@ header  .social-icons a {
     transition: 0.3s;
 }
 
-.home  .btn:hover i {
+.home .btn:hover i {
     transform: translateX(6px);
 }
-
 /* Introduction Ends */
 
 /* Skills section Starts */
 
+.skills {
+    background-image: linear-gradient(to right, #7734e7 0%, #cd79f5  51%, #7734e7  100%);
+    min-height: 97vh;
+}
+
+.skills .heading {
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+.skills .heading span {
+    color: #fccb06;
+}
+
+.container {
+    background: rgba(0, 0, 22, 0.4);
+    color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  
+.skills .row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.8rem;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    padding-left: 4rem;
+}
+
+.skills .row svg {
+    margin-bottom: 15px;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 22, 0.9);
+    transition: 0.2s;
+}
+  
+
+/* .skills .databases {  
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+} */
 
 /* Skills section Ends */
  

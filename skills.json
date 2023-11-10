@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
+    {
+      "name": "HTML5",
+      "class": "fab fa-html5",
+      "title": "HTML5 Icon"
+    },
+    {
+      "name": "CSS3",
+      "class": "fab fa-css3",
+      "title": "CSS3 Icon"
+    },
+    {
+      "name": "JavaScript",
+      "class": "fab fa-js",
+      "title": "JavaScript Icon"
+    }
+]

@@ -201,7 +201,7 @@ header  .social-icons a {
 /* Skills section Starts */
 
 .skills {
-    background-image: linear-gradient(to right, #7734e7 0%, #cd79f5  51%, #7734e7  100%);
+    background-image: linear-gradient( #7734e7 0%, #cd79f5  100%);
     min-height: 97vh;
 }
 
@@ -214,7 +214,7 @@ header  .social-icons a {
 }
 
 .skills .heading span {
-    color: #fccb06;
+    color: #32c563;
 }
 
 .container {
@@ -242,7 +242,7 @@ header  .social-icons a {
     padding: 1.7rem;
     border-radius: 2rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    background: rgba(34, 1, 51, 0.9);
+    background: rgba(220, 214, 223, 0.9);
     transition: 0.2s;
     width: 4rem;
     height: 4rem;

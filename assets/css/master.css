@@ -210,6 +210,7 @@ header  .social-icons a {
     color: white;
     padding-top: 2rem;
     font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .skills .heading span {
@@ -220,37 +221,135 @@ header  .social-icons a {
     background: rgba(0, 0, 22, 0.4);
     color: #fff;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     width: 90%;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
   
-.skills .row {
+/* .skills .row {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: max-content max-content;
     gap: 1.8rem;
     flex-wrap: wrap;
     justify-content: center; 
     align-items: center;
-    padding-left: 4rem;
-}
+} */
 
-.skills .row svg {
-    margin-bottom: 15px;
-    padding: 2rem;
+.skills img {
+    margin-bottom: 0.5rem;
+    padding: 1.7rem;
     border-radius: 2rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    background: rgba(0, 0, 22, 0.9);
+    background: rgba(34, 1, 51, 0.9);
     transition: 0.2s;
+    width: 4rem;
+    height: 4rem;
+    
 }
-  
 
-/* .skills .databases {  
+.dbouter {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(96, 96, 99, 0.301);
+  transition: 0.2s;
+  margin-bottom: 1rem;
+}
+
+.dbouter h3 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 0.75rem;
+  padding-top: 0.2rem;
+}
+
+.dbouter .databases {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1.8rem;
+  flex-wrap: wrap;
+  justify-content: center; 
   align-items: center;
-  justify-content: center;
-  list-style: none;
-} */
+  width: 100%;
+}
+
+
+
+.skills .devopsouter {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(96, 96, 99, 0.301);
+  transition: 0.2s;
+  margin-bottom: 1rem;
+}
+
+.skills .devopsouter h3 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 0.75rem;
+  padding-top: 0.2rem;
+}
+
+.skills .row .devopsouter .devops {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.8rem;
+}
+
+
+ .codingouter {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(96, 96, 99, 0.301);
+  transition: 0.2s;
+  width: auto;
+}
+
+ .codingouter h3 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 0.75rem;
+  padding-top: 0.2rem;
+}
+
+.codingouter .coding {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);;
+  gap: 1.8rem;
+}
+
+.etlouter {
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(96, 96, 99, 0.301);
+  transition: 0.2s;
+  width: auto;
+}
+
+ .etlouter h3 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 0.75rem;
+  padding-top: 0.2rem;
+}
+
+.etlouter .etl {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1.8rem;
+}
+
+
+
 
 /* Skills section Ends */
  

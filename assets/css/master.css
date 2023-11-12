@@ -199,7 +199,146 @@ header  .social-icons a {
 /* Introduction Ends */
 
 /* Skills section Starts */
+.skills {
+  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  color:#fff;
+}
 
+.skills h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.skills h1 span{
+  color: #fccb06;
+}
+
+.skills .container {
+  width: 95%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.8rem;
+  margin: auto; 
+}
+
+.skills .container > div {
+  background-color: rgba(0, 0, 22, 0.4);
+  padding: 2rem 0;
+  font-size: 30px;
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 0;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  text-align:center;
+  color:#ff7b00;
+  margin-bottom: 5rem;
+  /* text-shadow: 1px 1px 5px #000, 0 0 10px #ff7b00, 0 0 20px #ff7b00; */
+}
+
+h2.programming {
+  color:#cd79f5;
+  /* text-shadow: 1px 1px 5px #000, 0 0 10px #cd79f5, 0 0 20px #cd79f5; */
+}
+
+h2.devops {
+  color:greenyellow;
+  /* text-shadow: 1px 1px 5px #000, 0 0 10px greenyellow, 0 0 20px greenyellow; */
+}
+
+.skills .col {
+  width: 35rem;
+  font-size: 0.9rem;
+  line-height: 2em;
+} 
+
+.skill ul { 
+  margin-left: 0; 
+}
+
+.skill li { 
+  margin-bottom:4rem; 
+  background:#030303; 
+  height:0.5rem; 
+  border-radius:0.5rem; 
+  /* border-left:1px solid #111; 
+  border-top:1px solid #111; 
+  border-right:1px solid #333; 
+  border-bottom:1px solid #333;   */
+  list-style: none;
+  margin-left: 0;
+}
+
+.skill li em { 
+  position:relative; 
+  font-style: normal;
+  font-size: 14px;
+  color:#dedede;
+  top:-3.5rem;
+  align-items: center;
+}
+
+li.orangeline { 
+  height: 3px; 
+  background: #ff7b00; 
+  /* box-shadow: 0px 0px 10px 1px rgba(255, 145, 0, 0.6); */
+}
+
+li.pinkline { 
+  height: 3px; 
+  background: #cd79f5; 
+  margin-left: 0;
+  /* box-shadow: 0px 0px 10px 1px rgba(255, 145, 0, 0.6); */
+}
+
+li.greenline { 
+  height: 3px; 
+  background: greenyellow; 
+  margin-left: 0;
+  /* box-shadow: 0px 0px 10px 1px rgba(255, 145, 0, 0.6); */
+}
+
+.mysql { 
+  width:90%;  
+  animation:mysql 2s ease-out;       
+}
+.postgres { 
+  width:85%;  
+  animation:postgres 2s ease-out;       
+}
+.sqlserver { 
+  width:95%;  
+  animation:sqlserver 2s ease-out;       
+}
+.redshift { 
+  width:60%;  
+  animation:redshift 2s ease-out;       
+}
+.snowflake { 
+  width:50%;  
+  animation:snowflake 2s ease-out;       
+}
+
+@keyframes mysql { 
+0% { width:0px; } 100% { width:90%; }  
+}
+@keyframes postgres { 
+  0% { width:0px; } 100% { width:85%; }  
+}
+@keyframes sqlserver { 
+  0% { width:0px; } 100% { width:95%; }  
+}
+@keyframes redshift { 
+  0% { width:0px; } 100% { width:60%; }  
+}
+@keyframes snowflake { 
+  0% { width:0px; } 100% { width:50%; }  
+}
 
 
 /* Skills section Ends */

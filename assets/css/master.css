@@ -216,28 +216,35 @@ header  .social-icons a {
 
 .skills .container {
   width: 95%;
-  overflow: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.8rem;
   margin: auto; 
+  gap: 1.8rem;
 }
 
-.skills .container > div {
-  background-color: rgba(0, 0, 22, 0.4);
-  padding: 2rem 0;
-  font-size: 30px;
-  border-radius: 2rem;
-  margin-bottom: 3rem;
-  margin-left: 0;
-}
+  .skills .col {
+    background-color: rgba(0, 0, 22, 0.4);
+    padding: 2rem 0;
+    font-size: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    font-size: 0.9rem;
+    line-height: 2em;
+  } 
 
 .skills h2 {
   font-size: 2rem;
   font-weight: normal;
   text-align:center;
   color:#ff7b00;
+  background: rgba(0, 0, 22, 0.9);
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-bottom: 5rem;
+  margin-top: 0;
+  border-radius: 2rem;
   /* text-shadow: 1px 1px 5px #000, 0 0 10px #ff7b00, 0 0 20px #ff7b00; */
 }
 
@@ -251,14 +258,21 @@ h2.devops {
   /* text-shadow: 1px 1px 5px #000, 0 0 10px greenyellow, 0 0 20px greenyellow; */
 }
 
-.skills .col {
-  width: 35rem;
-  font-size: 0.9rem;
-  line-height: 2em;
-} 
 
-.skill ul { 
-  margin-left: 0; 
+
+/* .skill li span {
+  width: 35rem; 
+  align-items: center;
+  display: flex;
+} */
+
+
+.skills .container > div ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  list-style: none;
 }
 
 .skill li { 
@@ -266,12 +280,13 @@ h2.devops {
   background:#030303; 
   height:0.5rem; 
   border-radius:0.5rem; 
-  /* border-left:1px solid #111; 
-  border-top:1px solid #111; 
-  border-right:1px solid #333; 
-  border-bottom:1px solid #333;   */
-  list-style: none;
-  margin-left: 0;
+  border-left:1px solid black; 
+  border-top:1px solid black; 
+  border-right:1px solid black; 
+  border-bottom:1px solid black;  
+  display: flex;
+  align-items: center;
+  width: 90%;
 }
 
 .skill li em { 
@@ -279,25 +294,27 @@ h2.devops {
   font-style: normal;
   font-size: 14px;
   color:#dedede;
-  top:-3.5rem;
-  align-items: center;
+  top:-1rem; 
+  
 }
 
-li.orangeline { 
-  height: 3px; 
+.orangeline { 
+  height: 0.5rem; 
+  margin: 0.2rem 0;
+  border-radius:0.5rem;
   background: #ff7b00; 
   /* box-shadow: 0px 0px 10px 1px rgba(255, 145, 0, 0.6); */
 }
 
 li.pinkline { 
-  height: 3px; 
+  height: 0.25rem; 
   background: #cd79f5; 
   margin-left: 0;
   /* box-shadow: 0px 0px 10px 1px rgba(255, 145, 0, 0.6); */
 }
 
 li.greenline { 
-  height: 3px; 
+  height: 0.25rem; 
   background: greenyellow; 
   margin-left: 0;
   /* box-shadow: 0px 0px 10px 1px rgba(255, 145, 0, 0.6); */

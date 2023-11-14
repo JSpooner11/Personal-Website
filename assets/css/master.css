@@ -4,6 +4,7 @@ body {
     /* background: #252525; */
     background: linear-gradient(to right, #252525, #22092C);
     width: 100%;
+    overflow-x: hidden;
 }
 
 html {
@@ -15,6 +16,7 @@ html {
 header {
   position: fixed;
   z-index: 1000;
+  top: 0;
 }
 
 header nav {
@@ -49,6 +51,13 @@ header .navbar ul li a:hover {
     border-bottom: 0.2rem solid #F39F5A;
     padding: 0.2rem 0;
   }
+
+@media only screen and (max-width: 768px) {
+  header .navbar ul {
+    gap: 1rem;
+    padding-right: 1rem;
+  }
+  }
 /* Navbar Emds */
 
 
@@ -58,10 +67,10 @@ header .navbar ul li a:hover {
     display: flex;
     flex-wrap: wrap; 
     gap: 1rem;
-    min-height: 100vh;
+    min-height: 95vh;
     align-items: center;
+    margin-top: 3rem;
   }
-
 
 .home .image img {
     width: 50%;
@@ -70,6 +79,9 @@ header .navbar ul li a:hover {
     padding-top: 0%;
     border-radius: 50%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    border-width: 1rem;
+    border-color: #200122;
   }
 
 
@@ -78,33 +90,15 @@ header .navbar ul li a:hover {
     padding-left: 0rem;
     padding-top: 0rem;
     color: #EEEEEE;
+    flex: 1;
+    margin-left: 0;
+    margin-right: 1rem;
 }
 
 .home .intro h2 {
     margin-bottom: 0;
     font-size: 3rem;
     color: #EEEEEE;
-
-}
-
-@media only screen and (max-width: 768px) {
-.home .intro h2 {
-    font-size: 2rem;
-}
-.home .intro h3 {
-  font-size: 1.75rem;
-}
-.home .intro p {
-  font-size: 0.8rem;
-}
-
-.home .socials {
-  margin-left: 0rem;
-}
-
-.home .intro {
-  margin-left: 20%;
-}
 }
 
 .home .intro h2 span {
@@ -172,13 +166,16 @@ header .navbar ul li a:hover {
 .home .socials {
   margin-top: 0rem;
   padding-top: 0;
+  flex: 0;
+  margin-right: 0;
+  width: auto;
 }
 
 .home .socials .social-icons{
   margin-bottom: 1.5rem;
   list-style: none;
-  margin-left: 8rem;
-  margin-right: 0;
+  margin-left: 5rem;
+  margin-right: 1rem;
 }
 
 .home  .social-icons a {
@@ -207,8 +204,36 @@ header .navbar ul li a:hover {
 .social-icons a.youtube:hover {
   color: red;
 }
-
 /* social icons Ends */
+@media only screen and (max-width: 768px) {
+
+  .home .intro h2 {
+      font-size: 2rem;
+  }
+  
+  .home .intro h3 {
+    font-size: 1.75rem;
+  }
+  
+  .home .intro p {
+    font-size: 0.8rem;
+  }
+  
+  .home .socials .social-icons{
+    margin-left: 1rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0;
+    line-height: 2.75rem;
+    padding-left: 0;
+  }
+  
+  .home .image img {
+    display: block; 
+    margin: 0 auto;
+  }
+  
+  }
+
 /* Introduction Ends */
 
 /* Skills section Starts */
